@@ -12,7 +12,7 @@ public class Alltestcases extends BaseClass {
 	public void tc01_Signup() {
 		SignupPage sp = new SignupPage();
 		sp.clicksignup("Sign Up - Personal");
-		sp.SingupPersonalDetails("vibha", "rao", "abc@xyzoo.com", "8888888888", "abc@123", "Sign Up - Address");
+		sp.SingupPersonalDetails("vibha", "rao", "abc@xyzpp.com", "8888888888", "abc@123", "Sign Up - Address");
 		sp.SignupAddress("mgroad","navanagar", "Hubli", "583772", "karnataka", "India", "Personal Details");
 		sp.ValidateSucess("You can use your email address as username to login!");
 	}
